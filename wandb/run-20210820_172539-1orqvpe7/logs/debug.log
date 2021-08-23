@@ -1,0 +1,26 @@
+2021-08-20 17:25:39,856 INFO    MainThread:127639 [wandb_setup.py:_flush():69] setting env: {}
+2021-08-20 17:25:39,856 INFO    MainThread:127639 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-08-20 17:25:39,856 INFO    MainThread:127639 [wandb_init.py:_log_setup():338] Logging user logs to /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/logs/debug.log
+2021-08-20 17:25:39,856 INFO    MainThread:127639 [wandb_init.py:_log_setup():339] Logging internal logs to /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/logs/debug-internal.log
+2021-08-20 17:25:39,857 INFO    MainThread:127639 [wandb_init.py:init():371] calling init triggers
+2021-08-20 17:25:39,857 INFO    MainThread:127639 [wandb_init.py:init():378] wandb.init called with sweep_config: {}
+config: {}
+2021-08-20 17:25:39,857 INFO    MainThread:127639 [wandb_init.py:init():420] starting backend
+2021-08-20 17:25:39,857 INFO    MainThread:127639 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-08-20 17:25:39,877 INFO    MainThread:127639 [backend.py:ensure_launched():135] starting backend process...
+2021-08-20 17:25:39,895 INFO    MainThread:127639 [backend.py:ensure_launched():140] started backend process with pid: 127678
+2021-08-20 17:25:39,896 INFO    MainThread:127639 [wandb_init.py:init():425] backend started and connected
+2021-08-20 17:25:39,897 INFO    MainThread:127639 [wandb_init.py:init():473] updated telemetry
+2021-08-20 17:25:39,898 INFO    MainThread:127639 [wandb_init.py:init():492] communicating current version
+2021-08-20 17:25:40,699 INFO    MainThread:127639 [wandb_init.py:init():497] got version response upgrade_message: "wandb version 0.12.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-08-20 17:25:40,699 INFO    MainThread:127639 [wandb_init.py:init():505] communicating run to backend with 30 second timeout
+2021-08-20 17:25:41,059 INFO    MainThread:127639 [wandb_init.py:init():530] starting run threads in backend
+2021-08-20 17:25:43,007 INFO    MainThread:127639 [wandb_run.py:_console_start():1625] atexit reg
+2021-08-20 17:25:43,007 INFO    MainThread:127639 [wandb_run.py:_redirect():1499] redirect: SettingsConsole.REDIRECT
+2021-08-20 17:25:43,007 INFO    MainThread:127639 [wandb_run.py:_redirect():1504] Redirecting console.
+2021-08-20 17:25:43,009 INFO    MainThread:127639 [wandb_run.py:_redirect():1560] Redirects installed.
+2021-08-20 17:25:43,009 INFO    MainThread:127639 [wandb_init.py:init():555] run started, returning control to user process
+2021-08-20 17:26:15,118 INFO    MainThread:127639 [wandb_watch.py:watch():43] Watching
+2021-08-20 17:32:45,518 INFO    MainThread:127639 [wandb_run.py:_atexit_cleanup():1595] got exitcode: 255
+2021-08-20 17:32:45,526 INFO    MainThread:127639 [wandb_run.py:_restore():1567] restore

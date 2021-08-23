@@ -1,0 +1,104 @@
+
+Loading Data
+Loading Data
+main_high.py:40: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  torch.nn.init.xavier_uniform(m.weight)
+  0%|                                                                                                          | 0/68 [00:00<?, ?it/s]
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv3d-1     [-1, 32, 256, 256, 32]             896
+       BatchNorm3d-2     [-1, 32, 256, 256, 32]              64
+              ReLU-3     [-1, 32, 256, 256, 32]               0
+            Conv3d-4     [-1, 32, 256, 256, 32]          27,680
+       BatchNorm3d-5     [-1, 32, 256, 256, 32]              64
+              ReLU-6     [-1, 32, 256, 256, 32]               0
+            Conv3d-7      [-1, 1, 256, 256, 32]              33
+         MaxPool3d-8     [-1, 32, 128, 128, 16]               0
+            Conv3d-9     [-1, 64, 128, 128, 16]          55,360
+      BatchNorm3d-10     [-1, 64, 128, 128, 16]             128
+             ReLU-11     [-1, 64, 128, 128, 16]               0
+           Conv3d-12     [-1, 64, 128, 128, 16]         110,656
+      BatchNorm3d-13     [-1, 64, 128, 128, 16]             128
+             ReLU-14     [-1, 64, 128, 128, 16]               0
+           Conv3d-15      [-1, 1, 128, 128, 16]              65
+         Upsample-16      [-1, 1, 256, 256, 32]               0
+        MaxPool3d-17        [-1, 64, 64, 64, 8]               0
+           Conv3d-18       [-1, 128, 64, 64, 8]         221,312
+      BatchNorm3d-19       [-1, 128, 64, 64, 8]             256
+             ReLU-20       [-1, 128, 64, 64, 8]               0
+           Conv3d-21       [-1, 128, 64, 64, 8]         442,496
+      BatchNorm3d-22       [-1, 128, 64, 64, 8]             256
+             ReLU-23       [-1, 128, 64, 64, 8]               0
+           Conv3d-24         [-1, 1, 64, 64, 8]             129
+         Upsample-25      [-1, 1, 256, 256, 32]               0
+        MaxPool3d-26       [-1, 128, 32, 32, 4]               0
+           Conv3d-27       [-1, 256, 32, 32, 4]         884,992
+      BatchNorm3d-28       [-1, 256, 32, 32, 4]             512
+             ReLU-29       [-1, 256, 32, 32, 4]               0
+           Conv3d-30       [-1, 256, 32, 32, 4]       1,769,728
+      BatchNorm3d-31       [-1, 256, 32, 32, 4]             512
+             ReLU-32       [-1, 256, 32, 32, 4]               0
+           Conv3d-33         [-1, 1, 32, 32, 4]             257
+         Upsample-34      [-1, 1, 256, 256, 32]               0
+           Conv3d-35      [-1, 8, 256, 256, 32]             872
+      BatchNorm3d-36      [-1, 8, 256, 256, 32]              16
+             ReLU-37      [-1, 8, 256, 256, 32]               0
+           Conv3d-38      [-1, 1, 256, 256, 32]             217
+================================================================
+Total params: 3,516,629
+Trainable params: 3,516,629
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 8.00
+Forward/backward pass size (MB): 4630.28
+Params size (MB): 13.41
+Estimated Total Size (MB): 4651.70
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+loss:0.332, dice:0.124:  57%|█████████████████████████████████████████▊                               | 39/68 [06:30<04:50, 10.01s/it]
+Traceback (most recent call last):
+  File "main_high.py", line 149, in <module>
+    trn_loss, trn_dice = eng.train(train_loader)
+  File "/data1/inqlee0704/lung_segmentation/engine.py", line 60, in train
+    for step, batch in pbar:
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 403, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data1/inqlee0704/lung_segmentation/dataloader.py", line 66, in __getitem__
+    self.img = resample(img,hdr,new_spacing=(hdr.spacing[0]*2,hdr.spacing[1]*2,1))
+  File "/data1/inqlee0704/lung_segmentation/dataloader.py", line 37, in resample
+    img = scipy.ndimage.interpolation.zoom(img,real_resize_factor, mode='nearest')
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/scipy/ndimage/interpolation.py", line 639, in zoom
+    filtered = spline_filter(input, order, output=numpy.float64)
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/scipy/ndimage/interpolation.py", line 176, in spline_filter
+    spline_filter1d(input, order, axis, output=output, mode=mode)
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/scipy/ndimage/interpolation.py", line 128, in spline_filter1d
+    _nd_image.spline_filter1d(input, order, axis, output, mode)
+KeyboardInterrupt

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "main.py", line 81, in <module>
+    df_subjlist = pd.read_csv(os.path.join(config.data_path,config.in_path),sep='\t')
+AttributeError: 'function' object has no attribute 'in_path'

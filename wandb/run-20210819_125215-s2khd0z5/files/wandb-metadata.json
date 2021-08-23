@@ -1,0 +1,24 @@
+{
+    "os": "Linux-3.10.0-1127.18.2.el7.x86_64-x86_64-with-centos-7.8.2003-Core",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-08-19T16:52:18.509023",
+    "startedAt": "2021-08-19T16:52:15.789883",
+    "docker": null,
+    "gpu": "Quadro RTX 5000",
+    "gpu_count": 1,
+    "cpu_count": 36,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/inqlee0704/lung_segmentation.git",
+        "commit": "876f7b03d074fa49eab06bdad0db8626ee90aac8"
+    },
+    "email": "inqlee0704@gmail.com",
+    "root": "/data1/inqlee0704/lung_segmentation",
+    "host": "b2",
+    "username": "inqlee0704",
+    "executable": "/home/inqlee0704/anaconda3/envs/py37/bin/python"
+}

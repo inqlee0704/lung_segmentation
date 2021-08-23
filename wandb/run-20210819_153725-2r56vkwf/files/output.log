@@ -1,0 +1,63 @@
+main.py:44: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  torch.nn.init.xavier_uniform(m.weight)
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv3d-1       [-1, 64, 64, 64, 64]           1,792
+    InstanceNorm3d-2       [-1, 64, 64, 64, 64]               0
+         LeakyReLU-3       [-1, 64, 64, 64, 64]               0
+            Conv3d-4       [-1, 64, 64, 64, 64]         110,656
+    InstanceNorm3d-5       [-1, 64, 64, 64, 64]               0
+         LeakyReLU-6       [-1, 64, 64, 64, 64]               0
+         MaxPool3d-7       [-1, 64, 32, 32, 32]               0
+            Conv3d-8      [-1, 128, 32, 32, 32]         221,312
+    InstanceNorm3d-9      [-1, 128, 32, 32, 32]               0
+        LeakyReLU-10      [-1, 128, 32, 32, 32]               0
+           Conv3d-11      [-1, 128, 32, 32, 32]         442,496
+   InstanceNorm3d-12      [-1, 128, 32, 32, 32]               0
+        LeakyReLU-13      [-1, 128, 32, 32, 32]               0
+        MaxPool3d-14      [-1, 128, 16, 16, 16]               0
+           Conv3d-15      [-1, 256, 16, 16, 16]         884,992
+   InstanceNorm3d-16      [-1, 256, 16, 16, 16]               0
+        LeakyReLU-17      [-1, 256, 16, 16, 16]               0
+           Conv3d-18      [-1, 256, 16, 16, 16]       1,769,728
+   InstanceNorm3d-19      [-1, 256, 16, 16, 16]               0
+        LeakyReLU-20      [-1, 256, 16, 16, 16]               0
+        MaxPool3d-21         [-1, 256, 8, 8, 8]               0
+           Conv3d-22         [-1, 512, 8, 8, 8]       3,539,456
+   InstanceNorm3d-23         [-1, 512, 8, 8, 8]               0
+        LeakyReLU-24         [-1, 512, 8, 8, 8]               0
+           Conv3d-25         [-1, 512, 8, 8, 8]       7,078,400
+   InstanceNorm3d-26         [-1, 512, 8, 8, 8]               0
+        LeakyReLU-27         [-1, 512, 8, 8, 8]               0
+  ConvTranspose3d-28      [-1, 256, 16, 16, 16]       1,048,832
+UnetSkipConnectionBlock-29      [-1, 512, 16, 16, 16]               0
+           Conv3d-30      [-1, 256, 16, 16, 16]       3,539,200
+        LeakyReLU-31      [-1, 256, 16, 16, 16]               0
+           Conv3d-32      [-1, 256, 16, 16, 16]       1,769,728
+        LeakyReLU-33      [-1, 256, 16, 16, 16]               0
+  ConvTranspose3d-34      [-1, 128, 32, 32, 32]         262,272
+UnetSkipConnectionBlock-35      [-1, 256, 32, 32, 32]               0
+           Conv3d-36      [-1, 128, 32, 32, 32]         884,864
+        LeakyReLU-37      [-1, 128, 32, 32, 32]               0
+           Conv3d-38      [-1, 128, 32, 32, 32]         442,496
+        LeakyReLU-39      [-1, 128, 32, 32, 32]               0
+  ConvTranspose3d-40       [-1, 64, 64, 64, 64]          65,600
+UnetSkipConnectionBlock-41      [-1, 128, 64, 64, 64]               0
+           Conv3d-42       [-1, 64, 64, 64, 64]         221,248
+        LeakyReLU-43       [-1, 64, 64, 64, 64]               0
+           Conv3d-44       [-1, 64, 64, 64, 64]         110,656
+        LeakyReLU-45       [-1, 64, 64, 64, 64]               0
+           Conv3d-46        [-1, 1, 64, 64, 64]              65
+UnetSkipConnectionBlock-47        [-1, 1, 64, 64, 64]               0
+================================================================
+Total params: 22,393,793
+Trainable params: 22,393,793
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 1.00
+Forward/backward pass size (MB): 2221.00
+Params size (MB): 85.43
+Estimated Total Size (MB): 2307.43
+----------------------------------------------------------------
+

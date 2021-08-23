@@ -1,0 +1,145 @@
+2021-08-20 17:25:40,566 INFO    MainThread:127678 [internal.py:wandb_internal():91] W&B internal server running at pid: 127678, started at: 2021-08-20 17:25:40.566598
+2021-08-20 17:25:40,568 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: check_version
+2021-08-20 17:25:40,568 INFO    WriterThread:127678 [datastore.py:open_for_write():80] open: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/run-1orqvpe7.wandb
+2021-08-20 17:25:40,570 DEBUG   SenderThread:127678 [sender.py:send():179] send: header
+2021-08-20 17:25:40,570 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: check_version
+2021-08-20 17:25:40,700 DEBUG   SenderThread:127678 [sender.py:send():179] send: run
+2021-08-20 17:25:41,059 INFO    SenderThread:127678 [dir_watcher.py:__init__():168] watching files in: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files
+2021-08-20 17:25:41,059 INFO    SenderThread:127678 [sender.py:_start_run_threads():719] run started: 1orqvpe7 with start time 1629494739
+2021-08-20 17:25:41,060 DEBUG   SenderThread:127678 [sender.py:send():179] send: summary
+2021-08-20 17:25:41,060 INFO    SenderThread:127678 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-08-20 17:25:41,060 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: run_start
+2021-08-20 17:25:42,063 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/wandb-summary.json
+2021-08-20 17:25:42,490 DEBUG   HandlerThread:127678 [meta.py:__init__():39] meta init
+2021-08-20 17:25:42,490 DEBUG   HandlerThread:127678 [meta.py:__init__():53] meta init done
+2021-08-20 17:25:42,490 DEBUG   HandlerThread:127678 [meta.py:probe():210] probe
+2021-08-20 17:25:42,496 DEBUG   HandlerThread:127678 [meta.py:_setup_git():200] setup git
+2021-08-20 17:25:42,519 DEBUG   HandlerThread:127678 [meta.py:_setup_git():207] setup git done
+2021-08-20 17:25:42,520 DEBUG   HandlerThread:127678 [meta.py:_save_pip():57] save pip
+2021-08-20 17:25:42,520 DEBUG   HandlerThread:127678 [meta.py:_save_pip():71] save pip done
+2021-08-20 17:25:42,520 DEBUG   HandlerThread:127678 [meta.py:_save_conda():78] save conda
+2021-08-20 17:25:43,000 DEBUG   HandlerThread:127678 [meta.py:_save_conda():86] save conda done
+2021-08-20 17:25:43,000 DEBUG   HandlerThread:127678 [meta.py:probe():252] probe done
+2021-08-20 17:25:43,003 DEBUG   SenderThread:127678 [sender.py:send():179] send: files
+2021-08-20 17:25:43,004 INFO    SenderThread:127678 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-08-20 17:25:43,009 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:25:43,010 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:25:43,063 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/wandb-metadata.json
+2021-08-20 17:25:43,063 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/requirements.txt
+2021-08-20 17:25:43,064 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:25:43,064 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/conda-environment.yaml
+2021-08-20 17:25:43,831 INFO    Thread-11 :127678 [upload_job.py:push():137] Uploaded file /tmp/tmpbpn7r206wandb/31b499ph-wandb-metadata.json
+2021-08-20 17:25:45,064 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:25:58,389 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:25:58,389 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:26:03,072 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:26:10,973 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:26:11,076 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:26:13,729 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:26:13,729 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:26:17,080 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:26:29,070 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:26:29,070 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:26:41,446 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:26:44,396 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:26:44,396 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:26:59,738 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:26:59,738 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:27:11,942 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:27:15,065 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:27:15,066 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:27:30,399 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:27:30,399 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:27:34,115 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:27:36,116 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:27:38,117 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:27:42,405 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:27:45,739 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:27:45,739 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:28:01,069 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:28:01,070 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:28:12,876 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:28:16,414 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:28:16,414 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:28:31,754 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:28:31,754 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:28:32,138 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:28:34,139 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:28:36,140 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:28:43,394 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:28:47,096 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:28:47,097 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:29:02,422 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:29:02,422 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:29:13,901 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:29:17,766 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:29:17,766 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:29:33,116 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:29:33,117 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:29:36,179 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:29:38,180 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:29:40,182 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:29:42,183 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:29:44,405 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:29:48,572 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:29:48,572 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:30:03,898 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:30:03,898 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:30:14,889 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:30:19,303 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:30:19,303 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:30:34,216 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:30:34,630 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:30:34,630 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:30:36,217 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:30:38,218 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:30:45,370 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:30:49,963 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:30:49,963 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:31:05,304 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:31:05,305 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:31:15,838 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:31:16,242 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:31:18,242 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:31:20,244 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:31:20,635 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:31:20,635 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:31:35,978 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:31:35,978 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:31:46,325 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:31:51,311 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:31:51,311 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:32:04,266 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:32:06,267 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:32:06,652 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:32:06,652 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:32:08,268 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:32:16,770 DEBUG   SenderThread:127678 [sender.py:send():179] send: stats
+2021-08-20 17:32:21,996 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:32:21,996 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:32:37,329 DEBUG   HandlerThread:127678 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-20 17:32:37,329 DEBUG   SenderThread:127678 [sender.py:send_request():193] send_request: stop_status
+2021-08-20 17:32:38,282 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:32:40,283 INFO    Thread-8  :127678 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:32:43,923 WARNING MainThread:127678 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-08-20 17:32:44,370 WARNING MainThread:127678 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2021-08-20 17:32:44,370 ERROR   MainThread:127678 [internal.py:wandb_internal():150] Internal process interrupted.
+2021-08-20 17:32:44,734 INFO    WriterThread:127678 [datastore.py:close():288] close: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/run-1orqvpe7.wandb
+2021-08-20 17:32:45,350 INFO    SenderThread:127678 [sender.py:finish():947] shutting down sender
+2021-08-20 17:32:45,350 INFO    SenderThread:127678 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-20 17:32:45,351 INFO    HandlerThread:127678 [handler.py:finish():658] shutting down handler
+2021-08-20 17:32:46,285 INFO    SenderThread:127678 [dir_watcher.py:finish():312] scan: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files
+2021-08-20 17:32:46,285 INFO    SenderThread:127678 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/config.yaml config.yaml
+2021-08-20 17:32:46,286 INFO    SenderThread:127678 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/wandb-summary.json wandb-summary.json
+2021-08-20 17:32:46,286 INFO    SenderThread:127678 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/requirements.txt requirements.txt
+2021-08-20 17:32:46,286 INFO    SenderThread:127678 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/conda-environment.yaml conda-environment.yaml
+2021-08-20 17:32:46,286 INFO    SenderThread:127678 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/wandb-metadata.json wandb-metadata.json
+2021-08-20 17:32:46,290 INFO    SenderThread:127678 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log output.log
+2021-08-20 17:32:46,291 INFO    SenderThread:127678 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-20 17:32:46,294 INFO    SenderThread:127678 [file_pusher.py:join():182] waiting for file pusher
+2021-08-20 17:32:47,143 INFO    Thread-15 :127678 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/conda-environment.yaml
+2021-08-20 17:32:47,147 INFO    Thread-14 :127678 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/requirements.txt
+2021-08-20 17:32:47,157 INFO    Thread-16 :127678 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/output.log
+2021-08-20 17:32:47,160 INFO    Thread-13 :127678 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/wandb-summary.json
+2021-08-20 17:32:47,162 INFO    Thread-12 :127678 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210820_172539-1orqvpe7/files/config.yaml
+2021-08-20 17:32:48,016 INFO    MainThread:127678 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,172 @@
+2021-08-19 12:43:36,026 INFO    MainThread:149402 [internal.py:wandb_internal():91] W&B internal server running at pid: 149402, started at: 2021-08-19 12:43:36.026290
+2021-08-19 12:43:36,028 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: check_version
+2021-08-19 12:43:36,028 INFO    WriterThread:149402 [datastore.py:open_for_write():80] open: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/run-1dah6009.wandb
+2021-08-19 12:43:36,030 DEBUG   SenderThread:149402 [sender.py:send():179] send: header
+2021-08-19 12:43:36,030 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: check_version
+2021-08-19 12:43:36,186 DEBUG   SenderThread:149402 [sender.py:send():179] send: run
+2021-08-19 12:43:36,565 INFO    SenderThread:149402 [dir_watcher.py:__init__():168] watching files in: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files
+2021-08-19 12:43:36,565 INFO    SenderThread:149402 [sender.py:_start_run_threads():719] run started: 1dah6009 with start time 1629391415
+2021-08-19 12:43:36,565 DEBUG   SenderThread:149402 [sender.py:send():179] send: summary
+2021-08-19 12:43:36,566 INFO    SenderThread:149402 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-08-19 12:43:36,566 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: run_start
+2021-08-19 12:43:37,574 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/wandb-summary.json
+2021-08-19 12:43:38,034 DEBUG   HandlerThread:149402 [meta.py:__init__():39] meta init
+2021-08-19 12:43:38,035 DEBUG   HandlerThread:149402 [meta.py:__init__():53] meta init done
+2021-08-19 12:43:38,035 DEBUG   HandlerThread:149402 [meta.py:probe():210] probe
+2021-08-19 12:43:38,041 DEBUG   HandlerThread:149402 [meta.py:_setup_git():200] setup git
+2021-08-19 12:43:38,064 DEBUG   HandlerThread:149402 [meta.py:_setup_git():207] setup git done
+2021-08-19 12:43:38,065 DEBUG   HandlerThread:149402 [meta.py:_save_pip():57] save pip
+2021-08-19 12:43:38,065 DEBUG   HandlerThread:149402 [meta.py:_save_pip():71] save pip done
+2021-08-19 12:43:38,065 DEBUG   HandlerThread:149402 [meta.py:_save_conda():78] save conda
+2021-08-19 12:43:38,559 DEBUG   HandlerThread:149402 [meta.py:_save_conda():86] save conda done
+2021-08-19 12:43:38,560 DEBUG   HandlerThread:149402 [meta.py:probe():252] probe done
+2021-08-19 12:43:38,563 DEBUG   SenderThread:149402 [sender.py:send():179] send: files
+2021-08-19 12:43:38,563 INFO    SenderThread:149402 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-08-19 12:43:38,571 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 12:43:38,572 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 12:43:38,576 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/output.log
+2021-08-19 12:43:38,576 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/requirements.txt
+2021-08-19 12:43:38,576 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/wandb-metadata.json
+2021-08-19 12:43:38,576 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/conda-environment.yaml
+2021-08-19 12:43:39,447 INFO    Thread-11 :149402 [upload_job.py:push():137] Uploaded file /tmp/tmpkez1i0lmwandb/2rpjm38m-wandb-metadata.json
+2021-08-19 12:43:44,589 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/output.log
+2021-08-19 12:43:53,914 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 12:43:53,914 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 12:43:57,597 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/output.log
+2021-08-19 12:44:06,505 DEBUG   SenderThread:149402 [sender.py:send():179] send: stats
+2021-08-19 12:44:09,247 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 12:44:09,247 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 12:44:13,610 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/output.log
+2021-08-19 12:44:24,594 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 12:44:24,594 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 12:44:36,966 DEBUG   SenderThread:149402 [sender.py:send():179] send: stats
+2021-08-19 12:44:39,949 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 12:44:39,949 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 12:44:45,638 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/output.log
+2021-08-19 12:44:55,303 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 12:44:55,303 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 12:45:01,650 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/output.log
+2021-08-19 12:45:07,415 DEBUG   SenderThread:149402 [sender.py:send():179] send: stats
+2021-08-19 12:45:10,634 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 12:45:10,634 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 12:45:25,967 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 12:45:25,967 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 12:45:32,522 DEBUG   SenderThread:149402 [sender.py:send():179] send: history
+2021-08-19 12:45:32,523 DEBUG   SenderThread:149402 [sender.py:send():179] send: summary
+2021-08-19 12:45:32,526 INFO    SenderThread:149402 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-08-19 12:45:32,714 INFO    Thread-8  :149402 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/wandb-summary.json
+2021-08-19 12:45:34,868 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:34,868 DEBUG   SenderThread:149402 [sender.py:send():179] send: telemetry
+2021-08-19 12:45:34,868 DEBUG   SenderThread:149402 [sender.py:send():179] send: exit
+2021-08-19 12:45:34,868 INFO    SenderThread:149402 [sender.py:send_exit():287] handling exit code: 1
+2021-08-19 12:45:34,869 INFO    SenderThread:149402 [sender.py:send_exit():295] send defer
+2021-08-19 12:45:34,869 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:34,869 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:34,869 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 0
+2021-08-19 12:45:34,870 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:34,870 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-08-19 12:45:34,870 INFO    SenderThread:149402 [sender.py:transition_state():308] send defer: 1
+2021-08-19 12:45:34,870 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:34,870 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 1
+2021-08-19 12:45:34,897 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:34,897 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-08-19 12:45:34,897 INFO    SenderThread:149402 [sender.py:transition_state():308] send defer: 2
+2021-08-19 12:45:34,897 DEBUG   SenderThread:149402 [sender.py:send():179] send: stats
+2021-08-19 12:45:34,898 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:34,898 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 2
+2021-08-19 12:45:34,898 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:34,898 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-08-19 12:45:34,898 INFO    SenderThread:149402 [sender.py:transition_state():308] send defer: 3
+2021-08-19 12:45:34,899 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:34,899 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 3
+2021-08-19 12:45:34,899 DEBUG   SenderThread:149402 [sender.py:send():179] send: summary
+2021-08-19 12:45:34,899 INFO    SenderThread:149402 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-08-19 12:45:34,900 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:34,900 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-08-19 12:45:34,900 INFO    SenderThread:149402 [sender.py:transition_state():308] send defer: 4
+2021-08-19 12:45:34,900 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:34,900 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 4
+2021-08-19 12:45:34,900 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:34,900 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-08-19 12:45:34,971 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:35,250 INFO    SenderThread:149402 [sender.py:transition_state():308] send defer: 5
+2021-08-19 12:45:35,250 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:35,250 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:35,250 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 5
+2021-08-19 12:45:35,251 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:35,251 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-08-19 12:45:35,251 INFO    SenderThread:149402 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-19 12:45:35,352 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:35,716 INFO    SenderThread:149402 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/output.log
+2021-08-19 12:45:35,716 INFO    SenderThread:149402 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/config.yaml
+2021-08-19 12:45:35,716 INFO    SenderThread:149402 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/wandb-summary.json
+2021-08-19 12:45:35,717 INFO    SenderThread:149402 [dir_watcher.py:finish():312] scan: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files
+2021-08-19 12:45:35,717 INFO    SenderThread:149402 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/config.yaml config.yaml
+2021-08-19 12:45:35,717 INFO    SenderThread:149402 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/wandb-summary.json wandb-summary.json
+2021-08-19 12:45:35,717 INFO    SenderThread:149402 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/requirements.txt requirements.txt
+2021-08-19 12:45:35,717 INFO    SenderThread:149402 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/conda-environment.yaml conda-environment.yaml
+2021-08-19 12:45:35,718 INFO    SenderThread:149402 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/wandb-metadata.json wandb-metadata.json
+2021-08-19 12:45:35,726 INFO    SenderThread:149402 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/output.log output.log
+2021-08-19 12:45:35,734 INFO    SenderThread:149402 [sender.py:transition_state():308] send defer: 6
+2021-08-19 12:45:35,734 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:35,735 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:35,735 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 6
+2021-08-19 12:45:35,739 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:35,739 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-08-19 12:45:35,739 INFO    SenderThread:149402 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-19 12:45:35,836 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:35,836 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:35,938 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:35,938 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:36,039 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:36,039 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:36,140 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:36,141 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:36,242 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:36,242 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:36,344 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:36,344 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:36,445 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:36,446 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:36,523 INFO    Thread-13 :149402 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/wandb-summary.json
+2021-08-19 12:45:36,541 INFO    Thread-12 :149402 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/config.yaml
+2021-08-19 12:45:36,547 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:36,547 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:36,557 INFO    Thread-15 :149402 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/conda-environment.yaml
+2021-08-19 12:45:36,559 INFO    Thread-14 :149402 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/requirements.txt
+2021-08-19 12:45:36,580 INFO    Thread-16 :149402 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/files/output.log
+2021-08-19 12:45:36,649 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:36,649 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:36,750 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:36,750 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:36,781 INFO    Thread-7  :149402 [sender.py:transition_state():308] send defer: 7
+2021-08-19 12:45:36,782 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:36,782 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 7
+2021-08-19 12:45:36,782 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:36,782 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-08-19 12:45:36,852 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:37,291 INFO    SenderThread:149402 [sender.py:transition_state():308] send defer: 8
+2021-08-19 12:45:37,291 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:37,292 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:37,292 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 8
+2021-08-19 12:45:37,292 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:37,292 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-08-19 12:45:37,292 INFO    SenderThread:149402 [sender.py:transition_state():308] send defer: 9
+2021-08-19 12:45:37,293 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: defer
+2021-08-19 12:45:37,293 DEBUG   SenderThread:149402 [sender.py:send():179] send: final
+2021-08-19 12:45:37,293 INFO    HandlerThread:149402 [handler.py:handle_request_defer():141] handle defer: 9
+2021-08-19 12:45:37,293 DEBUG   SenderThread:149402 [sender.py:send():179] send: footer
+2021-08-19 12:45:37,293 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: defer
+2021-08-19 12:45:37,293 INFO    SenderThread:149402 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-08-19 12:45:37,393 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: poll_exit
+2021-08-19 12:45:37,393 DEBUG   SenderThread:149402 [sender.py:send_request():193] send_request: poll_exit
+2021-08-19 12:45:37,393 INFO    SenderThread:149402 [file_pusher.py:join():182] waiting for file pusher
+2021-08-19 12:45:37,394 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: get_summary
+2021-08-19 12:45:37,395 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: sampled_history
+2021-08-19 12:45:37,396 DEBUG   HandlerThread:149402 [handler.py:handle_request():124] handle_request: shutdown
+2021-08-19 12:45:37,396 INFO    HandlerThread:149402 [handler.py:finish():658] shutting down handler
+2021-08-19 12:45:38,293 INFO    WriterThread:149402 [datastore.py:close():288] close: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_124335-1dah6009/run-1dah6009.wandb
+2021-08-19 12:45:38,394 INFO    SenderThread:149402 [sender.py:finish():947] shutting down sender
+2021-08-19 12:45:38,394 INFO    SenderThread:149402 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-19 12:45:38,394 INFO    SenderThread:149402 [file_pusher.py:join():182] waiting for file pusher
+2021-08-19 12:45:38,396 INFO    MainThread:149402 [internal.py:handle_exit():78] Internal process exited

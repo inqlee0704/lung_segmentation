@@ -1,0 +1,70 @@
+2021-08-19 15:47:24,204 INFO    MainThread:70330 [internal.py:wandb_internal():91] W&B internal server running at pid: 70330, started at: 2021-08-19 15:47:24.203705
+2021-08-19 15:47:24,205 DEBUG   HandlerThread:70330 [handler.py:handle_request():124] handle_request: check_version
+2021-08-19 15:47:24,206 INFO    WriterThread:70330 [datastore.py:open_for_write():80] open: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/run-38dzzxm4.wandb
+2021-08-19 15:47:24,207 DEBUG   SenderThread:70330 [sender.py:send():179] send: header
+2021-08-19 15:47:24,207 DEBUG   SenderThread:70330 [sender.py:send_request():193] send_request: check_version
+2021-08-19 15:47:24,342 DEBUG   SenderThread:70330 [sender.py:send():179] send: run
+2021-08-19 15:47:24,724 INFO    SenderThread:70330 [dir_watcher.py:__init__():168] watching files in: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files
+2021-08-19 15:47:24,724 INFO    SenderThread:70330 [sender.py:_start_run_threads():719] run started: 38dzzxm4 with start time 1629402443
+2021-08-19 15:47:24,724 DEBUG   SenderThread:70330 [sender.py:send():179] send: summary
+2021-08-19 15:47:24,724 INFO    SenderThread:70330 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-08-19 15:47:24,724 DEBUG   HandlerThread:70330 [handler.py:handle_request():124] handle_request: run_start
+2021-08-19 15:47:25,731 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/wandb-summary.json
+2021-08-19 15:47:26,186 DEBUG   HandlerThread:70330 [meta.py:__init__():39] meta init
+2021-08-19 15:47:26,186 DEBUG   HandlerThread:70330 [meta.py:__init__():53] meta init done
+2021-08-19 15:47:26,186 DEBUG   HandlerThread:70330 [meta.py:probe():210] probe
+2021-08-19 15:47:26,193 DEBUG   HandlerThread:70330 [meta.py:_setup_git():200] setup git
+2021-08-19 15:47:26,216 DEBUG   HandlerThread:70330 [meta.py:_setup_git():207] setup git done
+2021-08-19 15:47:26,216 DEBUG   HandlerThread:70330 [meta.py:_save_pip():57] save pip
+2021-08-19 15:47:26,217 DEBUG   HandlerThread:70330 [meta.py:_save_pip():71] save pip done
+2021-08-19 15:47:26,217 DEBUG   HandlerThread:70330 [meta.py:_save_conda():78] save conda
+2021-08-19 15:47:26,707 DEBUG   HandlerThread:70330 [meta.py:_save_conda():86] save conda done
+2021-08-19 15:47:26,707 DEBUG   HandlerThread:70330 [meta.py:probe():252] probe done
+2021-08-19 15:47:26,711 DEBUG   SenderThread:70330 [sender.py:send():179] send: files
+2021-08-19 15:47:26,711 INFO    SenderThread:70330 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-08-19 15:47:26,717 DEBUG   HandlerThread:70330 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 15:47:26,718 DEBUG   SenderThread:70330 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 15:47:26,730 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/conda-environment.yaml
+2021-08-19 15:47:26,730 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/requirements.txt
+2021-08-19 15:47:26,730 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/wandb-metadata.json
+2021-08-19 15:47:26,730 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_created():216] file/dir created: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/output.log
+2021-08-19 15:47:27,548 INFO    Thread-11 :70330 [upload_job.py:push():137] Uploaded file /tmp/tmpc91ffevgwandb/36uygziu-wandb-metadata.json
+2021-08-19 15:47:28,731 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/output.log
+2021-08-19 15:47:32,736 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/output.log
+2021-08-19 15:47:42,063 DEBUG   HandlerThread:70330 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 15:47:42,063 DEBUG   SenderThread:70330 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 15:47:54,677 DEBUG   SenderThread:70330 [sender.py:send():179] send: stats
+2021-08-19 15:47:57,394 DEBUG   HandlerThread:70330 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 15:47:57,394 DEBUG   SenderThread:70330 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 15:48:12,727 DEBUG   HandlerThread:70330 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 15:48:12,727 DEBUG   SenderThread:70330 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 15:48:25,157 DEBUG   SenderThread:70330 [sender.py:send():179] send: stats
+2021-08-19 15:48:28,074 DEBUG   HandlerThread:70330 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 15:48:28,074 DEBUG   SenderThread:70330 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 15:48:28,823 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/output.log
+2021-08-19 15:48:39,831 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/output.log
+2021-08-19 15:48:41,835 INFO    Thread-8  :70330 [dir_watcher.py:_on_file_modified():229] file/dir modified: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/output.log
+2021-08-19 15:48:44,260 DEBUG   HandlerThread:70330 [handler.py:handle_request():124] handle_request: stop_status
+2021-08-19 15:48:44,260 DEBUG   SenderThread:70330 [sender.py:send_request():193] send_request: stop_status
+2021-08-19 15:48:49,675 WARNING MainThread:70330 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-08-19 15:48:50,055 WARNING MainThread:70330 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2021-08-19 15:48:50,055 ERROR   MainThread:70330 [internal.py:wandb_internal():150] Internal process interrupted.
+2021-08-19 15:48:50,661 INFO    SenderThread:70330 [sender.py:finish():947] shutting down sender
+2021-08-19 15:48:50,661 INFO    SenderThread:70330 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-08-19 15:48:50,662 INFO    HandlerThread:70330 [handler.py:finish():658] shutting down handler
+2021-08-19 15:48:50,837 INFO    SenderThread:70330 [dir_watcher.py:finish():312] scan: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files
+2021-08-19 15:48:50,837 INFO    SenderThread:70330 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/config.yaml config.yaml
+2021-08-19 15:48:50,838 INFO    SenderThread:70330 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/wandb-summary.json wandb-summary.json
+2021-08-19 15:48:50,838 INFO    SenderThread:70330 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/requirements.txt requirements.txt
+2021-08-19 15:48:50,842 INFO    SenderThread:70330 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/conda-environment.yaml conda-environment.yaml
+2021-08-19 15:48:50,850 INFO    SenderThread:70330 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/wandb-metadata.json wandb-metadata.json
+2021-08-19 15:48:50,851 INFO    SenderThread:70330 [dir_watcher.py:finish():318] scan save: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/output.log output.log
+2021-08-19 15:48:50,851 INFO    SenderThread:70330 [file_pusher.py:finish():177] shutting down file pusher
+2021-08-19 15:48:50,851 INFO    SenderThread:70330 [file_pusher.py:join():182] waiting for file pusher
+2021-08-19 15:48:50,872 INFO    WriterThread:70330 [datastore.py:close():288] close: /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/run-38dzzxm4.wandb
+2021-08-19 15:48:51,652 INFO    Thread-12 :70330 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/config.yaml
+2021-08-19 15:48:51,654 INFO    Thread-13 :70330 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/wandb-summary.json
+2021-08-19 15:48:51,685 INFO    Thread-15 :70330 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/conda-environment.yaml
+2021-08-19 15:48:51,709 INFO    Thread-16 :70330 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/output.log
+2021-08-19 15:48:51,720 INFO    Thread-14 :70330 [upload_job.py:push():137] Uploaded file /data1/inqlee0704/lung_segmentation/wandb/run-20210819_154723-38dzzxm4/files/requirements.txt
+2021-08-19 15:48:52,596 INFO    MainThread:70330 [internal.py:handle_exit():78] Internal process exited

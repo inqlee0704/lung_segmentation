@@ -1,0 +1,23 @@
+
+Loading Data
+Loading Data
+main_high.py:41: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  torch.nn.init.xavier_uniform(m.weight)
+Traceback (most recent call last):
+  File "main_high.py", line 119, in <module>
+    summary(model,(1,256,256,32))
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torchsummary/torchsummary.py", line 72, in summary
+    model(*x)
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/data1/inqlee0704/lung_segmentation/Seg3D.py", line 53, in forward
+    x1 = self.down_conv_1(image)
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 567, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 512.00 MiB (GPU 0; 15.72 GiB total capacity; 29.44 MiB already allocated; 415.06 MiB free; 38.00 MiB reserved in total by PyTorch)

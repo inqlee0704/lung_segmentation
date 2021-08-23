@@ -1,0 +1,42 @@
+
+Loading Data
+Loading Data
+main.py:40: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  torch.nn.init.xavier_uniform(m.weight)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+loss:0.284, dice:0.081: 100%|█████████████████████████████████████████████████████████████████████████| 34/34 [33:00<00:00, 58.26s/it]
+
+
+
+loss:0.199, dice:0.408:  67%|█████████████████████████████████████████████████▎                        | 4/6 [09:28<04:35, 137.78s/it]
+Epoch: 0, train loss: 0.318483, valid loss: 0.187308
+
+loss:0.189, dice:0.354: 100%|██████████████████████████████████████████████████████████████████████████| 6/6 [12:36<00:00, 126.12s/it]

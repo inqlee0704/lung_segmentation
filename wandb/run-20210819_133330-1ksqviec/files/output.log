@@ -1,0 +1,92 @@
+main.py:43: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  torch.nn.init.xavier_uniform(m.weight)
+  0%|                                                                                                                                                                                                   | 0/4 [00:00<?, ?it/s]
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv3d-1       [-1, 32, 64, 64, 64]             896
+       BatchNorm3d-2       [-1, 32, 64, 64, 64]              64
+              ReLU-3       [-1, 32, 64, 64, 64]               0
+            Conv3d-4       [-1, 32, 64, 64, 64]          27,680
+       BatchNorm3d-5       [-1, 32, 64, 64, 64]              64
+              ReLU-6       [-1, 32, 64, 64, 64]               0
+            Conv3d-7        [-1, 1, 64, 64, 64]              33
+         MaxPool3d-8       [-1, 32, 32, 32, 32]               0
+            Conv3d-9       [-1, 64, 32, 32, 32]          55,360
+      BatchNorm3d-10       [-1, 64, 32, 32, 32]             128
+             ReLU-11       [-1, 64, 32, 32, 32]               0
+           Conv3d-12       [-1, 64, 32, 32, 32]         110,656
+      BatchNorm3d-13       [-1, 64, 32, 32, 32]             128
+             ReLU-14       [-1, 64, 32, 32, 32]               0
+           Conv3d-15        [-1, 1, 32, 32, 32]              65
+         Upsample-16        [-1, 1, 64, 64, 64]               0
+        MaxPool3d-17       [-1, 64, 16, 16, 16]               0
+           Conv3d-18      [-1, 128, 16, 16, 16]         221,312
+      BatchNorm3d-19      [-1, 128, 16, 16, 16]             256
+             ReLU-20      [-1, 128, 16, 16, 16]               0
+           Conv3d-21      [-1, 128, 16, 16, 16]         442,496
+      BatchNorm3d-22      [-1, 128, 16, 16, 16]             256
+             ReLU-23      [-1, 128, 16, 16, 16]               0
+           Conv3d-24        [-1, 1, 16, 16, 16]             129
+         Upsample-25        [-1, 1, 64, 64, 64]               0
+        MaxPool3d-26         [-1, 128, 8, 8, 8]               0
+           Conv3d-27         [-1, 256, 8, 8, 8]         884,992
+      BatchNorm3d-28         [-1, 256, 8, 8, 8]             512
+             ReLU-29         [-1, 256, 8, 8, 8]               0
+           Conv3d-30         [-1, 256, 8, 8, 8]       1,769,728
+      BatchNorm3d-31         [-1, 256, 8, 8, 8]             512
+             ReLU-32         [-1, 256, 8, 8, 8]               0
+           Conv3d-33           [-1, 1, 8, 8, 8]             257
+         Upsample-34        [-1, 1, 64, 64, 64]               0
+           Conv3d-35        [-1, 8, 64, 64, 64]             872
+      BatchNorm3d-36        [-1, 8, 64, 64, 64]              16
+             ReLU-37        [-1, 8, 64, 64, 64]               0
+           Conv3d-38        [-1, 1, 64, 64, 64]             217
+          Softmax-39        [-1, 1, 64, 64, 64]               0
+================================================================
+Total params: 3,516,629
+Trainable params: 3,516,629
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 1.00
+Forward/backward pass size (MB): 580.79
+Params size (MB): 13.41
+Estimated Total Size (MB): 595.20
+
+
+
+loss:1.208, dice:0.170: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [22:35<00:00, 338.89s/it]
+  0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+Epoch: 0, train loss: 1.192938, valid loss: 1.187448
+loss:1.187, dice:0.197: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [05:51<00:00, 351.76s/it]
+
+
+
+loss:1.176, dice:0.211: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [22:26<00:00, 336.54s/it]
+  0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+loss:1.187, dice:0.197: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [05:49<00:00, 349.70s/it]
+
+
+
+loss:1.188, dice:0.197: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [22:28<00:00, 337.13s/it]
+  0%|                                                                                                                                                                                                   | 0/1 [00:00<?, ?it/s]
+loss:1.187, dice:0.197: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [05:48<00:00, 348.71s/it]
+
+loss:1.195, dice:0.186:  25%|████████████████████████████████████████▌                                                                                                                         | 1/4 [10:36<31:49, 636.47s/it]
+Traceback (most recent call last):
+  File "main.py", line 137, in <module>
+    trn_loss, trn_dice = eng.train(train_loader)
+  File "/data1/inqlee0704/lung_segmentation/engine.py", line 60, in train
+    for step, batch in pbar:
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/tqdm/std.py", line 1185, in __iter__
+    for obj in iterable:
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 403, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/inqlee0704/anaconda3/envs/py37/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data1/inqlee0704/lung_segmentation/dataloader.py", line 64, in __getitem__
+    mask[mask==30] = 1
