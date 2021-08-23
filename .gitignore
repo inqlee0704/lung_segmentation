@@ -1,0 +1,5 @@
+*.ipynb
+RESULTS
+monit
+wandb
+__pycache__
